@@ -1,0 +1,8 @@
+
+.quiz-decks-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:-2rem;
+    perspective: 1000px;
+}

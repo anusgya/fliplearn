@@ -1,0 +1,59 @@
+:root{
+    --toastify-color-success: #39A168;
+    --toastify-color-warning: #E19907;
+    --toastify-color-error: #E53E3E;
+    --toastify-font-family: 'Inter',sans-serif;
+    --toastify-toast-min-height: 38px;
+    --toastify-toast-width: 300px;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    padding:0;
+} 
+
+.cards-container{
+    margin-top:4.5rem;
+    display: flex;
+    position: relative;
+    max-width: 68rem;
+}
+
+
+.master-container{
+    display: flex;
+    width:100vw;
+    gap:1rem;
+}
+
+.btn-cards-container{
+    margin-left:15.5rem;
+    /* z-index: -1; */
+}
+
+.add-btn-container{
+    display: flex;
+    margin-top:1rem;
+    position:fixed;
+    justify-content: space-between;
+    width:68rem;
+    align-items: baseline;
+}
+
+.form-container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+
+

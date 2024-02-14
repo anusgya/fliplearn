@@ -1,0 +1,10 @@
+.quiz-body-container{
+    height:100vh;
+    width:100vw;
+    background-color: #00509A;
+    /* justify-content: center; */
+    align-items: center;
+    position: relative;
+    overflow-y: auto;
+    /* margin:-9px; */
+}

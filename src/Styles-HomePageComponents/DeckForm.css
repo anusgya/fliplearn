@@ -1,0 +1,102 @@
+.add-deck-form input{
+    height:1.5rem;
+    border:0.5px solid #bdbdbd;
+    border-radius: 0.2rem;
+    width:90%;
+    outline:none;
+    margin-left:0.025rem;
+    font-family: 'Inter', sans-serif;
+    color:#797873;
+}
+
+
+
+.add-deck-form-container{
+    display: flex;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-deck-form-container{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* height:100px; */
+    padding:1.5rem;
+    width:200px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+}
+
+.edit-btns-container{
+    display: flex;
+    width: inherit;
+    gap: 8px;
+}
+
+.edit-deck-input-container input{
+    margin-bottom:20px;
+    height: 2rem;
+    width:190px;
+    border-radius:5px;
+    font-family: 'Inter', sans-serif;
+    outline:none;
+    border: 1.5px solid #DBDBDB;
+    background: #FAF9F7;
+    padding: 0 6px;
+    font-size:1rem ;
+}
+
+.edit-deck-input-container input:focus{
+    border: 1.5px solid rgb(143, 143, 143);
+}
+
+.edit-deck-form{
+    outline: none;
+    /* background-color: red; */
+}
+
+.close-edit-form-btn, .save-edit-form-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.2rem;
+    width:100%;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.close-edit-form-btn{
+    background-color: transparent;
+    color:rgb(119, 119, 119);
+
+    border:1.5px solid rgba(0, 0, 0, 0.2);
+}
+.close-edit-form-btn:hover{
+    /* background-color: transparent; */
+    border:solid 1px #5688d3;
+}
+
+.save-edit-form-btn{
+    background-color: #5688d3;
+    color:white;
+}
+
+
+.save-edit-form-btn:hover{
+    background-color: #3d70bd;
+}
+
+

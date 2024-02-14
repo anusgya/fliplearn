@@ -1,0 +1,39 @@
+.confirm-question{
+    font-size: 1rem;
+    color:#000000;
+    /* padding:0.3rem; */
+    text-align: center;
+    font-weight: 450;
+    margin-bottom:1rem;
+}
+
+.confirm-question div{
+    font-size: 0.9rem;
+    color:#636363;
+    font-weight: 400;
+    margin-top:10px;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.confirm-modal{
+    display: flex;
+    flex-direction: column;
+    width:20rem;
+    justify-content: center;
+    position:relative;
+    padding:1.5rem;
+    background-color: #FFFFFF;
+    border-radius:7px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+}

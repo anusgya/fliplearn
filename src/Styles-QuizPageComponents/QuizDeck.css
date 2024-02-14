@@ -1,0 +1,41 @@
+
+.quiz-deck {
+  border-radius: 8px;
+  background: #e5f3ff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto 10px;
+  padding: 0.8rem 0.8rem;
+  width: 30rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.quiz-deck-title {
+  font-size: 1.05rem;
+  font-weight: 450;
+  color: #00051a;
+}
+
+.quiz-deck-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cards-count {
+  color: #4b4b4b;
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+.quiz-deck:hover {
+  border: 2px solid rgb(5, 113, 255);
+  /* transform: translateZ(20px); */
+  transform: scale(1.04);
+  transition: all ease;
+}

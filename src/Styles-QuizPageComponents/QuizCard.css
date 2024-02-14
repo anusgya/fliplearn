@@ -1,0 +1,85 @@
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quiz-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.7rem;
+  background-color: #ffffff;
+  transform-style: preserve-3d;
+  font-size: 1.25rem;
+  justify-self: center;
+  align-self: center;
+  width: 300px;
+  height: 280px;
+  transition: 200ms;
+  cursor: pointer;
+  color: rgb(86, 86, 86);
+  transform: perspective(1000px) rotateY(var(--rotate-y, 0)) translateY(var(--translate-y, 0));
+  transform: .5s;
+}
+
+.quiz-card:hover {
+  --translate-y: -2px;
+  box-shadow: 0 0 1px 1px rgba(205, 205, 205, 0.5);
+}
+.quiz-card.flip {
+  --rotate-y: 180deg;
+}
+
+.quiz-card .front,
+.quiz-card .back {
+  position: absolute;
+  text-align: center;
+  padding: 1rem;
+  backface-visibility: hidden;
+  transition: ease-in;
+}
+
+.quiz-card .back {
+  transform: rotateY(180deg);
+}
+
+.count-container {
+  position: absolute;
+  left: 20px;
+}
+
+.bgcard-1 {
+  position: absolute;
+  background-color: #a9a9a9;
+  width: 300px;
+  height: 280px;
+  top: 69px;
+  border-radius: 0.7rem;
+}
+
+.bgcard-2 {
+  position: absolute;
+  background-color: #cecece;
+  width: 315px;
+  height: 280px;
+  top: 60px;
+  border-radius: 0.7rem;
+}
+.flashcard-container {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  position: relative;
+  /* perspective: 1000px; */
+}
